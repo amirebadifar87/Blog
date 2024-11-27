@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Data.Entity.Tbl;
+namespace Data.Entity;
 
 public class Category
 {

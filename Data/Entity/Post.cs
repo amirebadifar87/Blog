@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Data.Entity.Tbl;
+namespace Data.Entity;
 
 public class Post
 {
@@ -9,7 +9,7 @@ public class Post
     public int Id { get; set; }
     public string Title { get; set; }
     public string Discription { get; set; }
-    public string Contect { get; set; }
+    public string Content { get; set; }
     public string Tags { get; set; }
     public string Visit { get; set; }
 

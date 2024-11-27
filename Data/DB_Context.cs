@@ -1,7 +1,7 @@
-﻿using Data.Entity.Tbl;
+﻿using Data.Entity;
 using Microsoft.EntityFrameworkCore;
 
-namespace Data.Entity;
+namespace Data;
 
 public class DB_Context : DbContext
 {

@@ -25,4 +25,32 @@
       <ProjectReference Include="..\Data\Data.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\css\bootstrap-icons.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\css\bootstrap.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\css\owl.carousel.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\css\owl.theme.default.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\fonts\bootstrap-icons.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\fonts\bootstrap-icons.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\fonts\Vazir-Light-FD.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\btstrap.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\buisiness.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\cook.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\CSS-Contact-Us-Form.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\ecom.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\Piks.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\podcast.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\shop.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\blog\youtube.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\logo.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\slider\Woo_Package_New_Bnr1.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\slider\Woo_Package_New_Bnr2.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\img\userAvatar.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\js\bootstrap.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\js\index.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\js\jQuery.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\js\owl.carousel.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\Assets\js\popper.js" />
+    </ItemGroup>
+
 </Project>

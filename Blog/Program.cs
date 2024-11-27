@@ -13,6 +13,7 @@ builder.Services.AddDbContext<DB_Context>(o=>o.UseSqlServer("Data Source =.;Init
 builder.Services.AddScoped<DB_Context, DB_Context>();
 
 builder.Services.AddTransient<IPostRepository, PostService>();
+builder.Services.AddTransient<ICommentRepository, CommentService>();
 
 var app = builder.Build();
 

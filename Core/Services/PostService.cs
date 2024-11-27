@@ -1,6 +1,7 @@
 ﻿using Core.Repositories;
 using Data;
 using Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Core.Services;
 
@@ -15,7 +16,7 @@ public class PostService : IPostRepository
 
     public Post GetPostById(int id)
     {
-        return _context.Posts.SingleOrDefault(p => p.Id == id);
+        return _context.Posts.Include(p=>p.Comments).SingleOrDefault(p => p.Id == id);
     }
 
     public List<Post> GetPosts()

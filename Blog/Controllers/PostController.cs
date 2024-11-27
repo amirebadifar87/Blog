@@ -14,6 +14,7 @@ public class PostController : Controller
     [Route("/post/{id}")]
     public IActionResult ShwoPost(int id)
     {
+        
         return View(model:_post.GetPostById(id));
     }
 }

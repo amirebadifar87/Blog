@@ -1,4 +1,6 @@
-using Data.Entity;
+using Core.Repositories;
+using Core.Services;
+using Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<DB_Context>(o=>o.UseSqlServer("Data Source =.;Initial Catalog=BlogDB;Integrated Security=true;TrustServerCertificate=True"));
+
+builder.Services.AddScoped<DB_Context, DB_Context>();
+
+builder.Services.AddTransient<IPostRepository, PostService>();
 
 var app = builder.Build();
 
